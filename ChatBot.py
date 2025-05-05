@@ -32,7 +32,7 @@ lcr = LangChainRetriever(base_retriever=vec)
 
 
 # Set your Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCY18LlcijHdimIUQ2qaDdn2QYraMw_0Bw"
+os.environ["GOOGLE_API_KEY"] = "Enter_your_API_key"
 
 # Initialize memory to track conversation
 memory = ConversationBufferMemory(
